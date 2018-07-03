@@ -27,10 +27,13 @@ disqus:
 google_analytics: UA-121808009-1
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+header_pages:
+  - projects.md
+  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
